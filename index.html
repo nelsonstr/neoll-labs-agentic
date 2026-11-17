@@ -302,9 +302,9 @@
         </div>
 
         <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 1.25rem; border-top: 3px solid #10b981;">
-          <h4 style="margin: 0 0 0.5rem 0; color: #fff; font-size: 1.05rem;">3. Dedicated Supabase Database</h4>
+          <h4 style="margin: 0 0 0.5rem 0; color: #fff; font-size: 1.05rem;">3. Justified DB & Cost Optimization</h4>
           <p style="margin: 0; color: var(--muted); font-size: 0.88rem; line-height: 1.6;">
-            Per the factory architectural standard, exactly <strong>1 dedicated Supabase project</strong> is automatically provisioned under the <code>neoll-labs-projects</code> organization for the application.
+            A cloud database (Supabase) is provisioned <strong>ONLY when strictly justified</strong> by data requirements (auth, sync). Local-first apps use client storage to eliminate unnecessary infrastructure costs.
           </p>
         </div>
 
@@ -316,9 +316,9 @@
         </div>
 
         <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 1.25rem; border-top: 3px solid #8b5cf6; grid-column: 1 / -1;">
-          <h4 style="margin: 0 0 0.5rem 0; color: #fff; font-size: 1.05rem;">5. Interactive Telegram Promotion Gate</h4>
+          <h4 style="margin: 0 0 0.5rem 0; color: #fff; font-size: 1.05rem;">5. Interactive Promotion Gate & IP Protection</h4>
           <p style="margin: 0; color: var(--muted); font-size: 0.88rem; line-height: 1.6;">
-            The staging preview link is dispatched directly into Telegram with inline action buttons: <code>[ ✅ Approve & Ship to Prod ]</code> and <code>[ ✏️ Request Changes ]</code>. On approval, the app promotes automatically to production at <code>&lt;app&gt;.neoll-labs.com</code>.
+            The staging preview link is dispatched directly into Telegram with inline action buttons: <code>[ ✅ Approve & Ship to Prod ]</code> and <code>[ ✏️ Request Changes ]</code>. On approval, the app promotes automatically to production. <em>Note: GitHub repositories are strictly internal and never shared with clients; client engagement is 100% channel and preview-driven.</em>
           </p>
         </div>
       </div>
