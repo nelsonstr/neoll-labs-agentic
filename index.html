@@ -263,6 +263,23 @@
       </tbody>
     </table>
 
+    <!-- Section 4: New Client Onboarding & Chat-Driven App Creation -->
+    <div class="section-title" style="margin-top: 3rem;"><span>🚀</span> 4. New Client Onboarding & Chat-Driven App Creation Flow</div>
+    <div style="background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-top: 1rem;">
+      <h3 style="margin-top: 0; color: var(--accent);">End-to-End Chat-Driven Factory Pipeline</h3>
+      <ol style="line-height: 1.8; margin-bottom: 0;">
+        <li><strong>Engagement-First Intake</strong>: The client initiates contact via Telegram or landing page. The bot conducts a 2-3 step interactive survey (AI adoption level, goals, business identity) with zero disruptive page reloads.</li>
+        <li><strong>Dedicated Topic & Bot Binding</strong>: Hermes automatically provisions a dedicated private forum topic in the `Neoll-Labs.tlg` supergroup and assigns the appropriate venture bot (e.g., Marco Silva `@meta_ceo_bot` for SaaS/Chat2App, Robert for ExpatHousing, Yokochi for EcoPool).</li>
+        <li><strong>Chat-Driven Spec Gathering</strong>: The client talks directly with the bot in Telegram. The bot gathers application requirements, target users, core features, and data needs conversationally.</li>
+        <li><strong>Hermes Factory Provisioning</strong>: Upon spec confirmation, Hermes spins up an isolated Git worktree (`C:\Users\ai\ao\projects\<app>`) and instantiates a native Kanban board (`kanban.db`).</li>
+        <li><strong>Supabase & Vercel Infrastructure</strong>: Hermes provisions exactly 1 dedicated Supabase project and connects a Vercel project under team scope `neoll-labs-projects`.</li>
+        <li><strong>Staging Preview with Chat Banner</strong>: Code is pushed to the staging branch, deploying instantly to `<app>.staging.neoll-labs.com` complete with an embedded client review chat banner.</li>
+        <li><strong>Interactive Telegram Promotion Gate</strong>: The bot sends the staging preview link to the client in Telegram with interactive inline approval buttons:
+          <br><code>[ ✅ Approve & Ship to Prod ]</code> &nbsp; <code>[ ✏️ Request Changes ]</code>
+          <br>Once approved, the app promotes automatically to production (`<app>.neoll-labs.com`).</li>
+      </ol>
+    </div>
+
     <footer>
       Neoll Labs AI &bull; Lead Architect: Nelson Lourenço &bull; Product Organization Topology & Communication Channels &bull; Synced via Hermes Software Factory
     </footer>
